@@ -8,13 +8,13 @@ public class Calculator {
     public static void main(String[] args) {
         System.out.println("Liczby 5 i 8 ");
         Calculator calculator = new Calculator();
-        double Suma = calculator.suma(5, 8);
+        double suma = calculator.suma(5, 8);
         System.out.println("wynik Sumowanie:" + Suma);
-        double Subtraction = calculator.sub(5, 8);
+        double subtraction = calculator.sub(5, 8);
         System.out.println("Wynik odejmowania:" + Subtraction);
-        double Multiplication = calculator.multi(5, 8);
+        double multiplication = calculator.multi(5, 8);
         System.out.println("Wynik Mnozenie:" + Multiplication);
-        double Division = calculator.divi(5, 8);
+        double division = calculator.divi(5, 8);
         System.out.println("Wynik dzielenia:" + Division);
     }
 
