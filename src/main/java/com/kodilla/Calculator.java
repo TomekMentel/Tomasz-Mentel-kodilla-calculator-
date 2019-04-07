@@ -17,6 +17,7 @@ public class Calculator {
         double division = calculator.divi(5, 8);
         System.out.println("Wynik dzielenia:" + division);
     }
+
     int suma(int x, int y) {
         return x + y;
     }
